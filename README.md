@@ -45,15 +45,19 @@ Never commit your API key to a public repository.
 4. Select the cloned `Linkedin_Profile_Finder` folder
 
 1. Open Chrome and go to `chrome://extensions/`
+
 ![chrome://extensions/](screenshot/load_ext_img1.png)
 
 2. Enable **Developer mode** (top right)
+
 ![Developer mode](screenshot/load_ext_img2.png)
 
 3. Click **Load unpacked**
+
 ![Load unpacked](screenshot/load_img3.png)
 
-4 Select the cloned `Linkedin_Profile_Finder` folder
+4. Select the cloned `Linkedin_Profile_Finder` folder
+
 ![Linkedin_Profile_Finder](screenshot/load_ext_img4.png)
 ---
 
@@ -66,19 +70,25 @@ Never commit your API key to a public repository.
 5. If no data is found for the profile, the extension will display a "No data found" message.
 
 1. Go to any LinkedIn profile page
+
 ![LinkedIn profile page](screenshot/usage_img1.png)
 
 2. Click the **LinkedIn Profile Finder** extension icon in your browser
+
 ![LinkedIn Profile Finder](screenshot/usage_img2.png)
 
 3. The extension will display the profile's details and email (if found)
+
 ![profile's details](screenshot/usage_img3.png)
+
 ![profile's details](screenshot/usage_img6.png)
 
 4. If you are not on a LinkedIn profile page, the extension will show a message indicating that it only works on LinkedIn profile URLs.
+
 ![LinkedIn domain warning](screenshot/usage_img4.png)
 
-5 If no data is found for the profile, the extension will display a "No data found" message.
+5. If no data is found for the profile, the extension will display a "No data found" message.
+
 ![No data found](screenshot/usage_img5.png)
 ---
 
