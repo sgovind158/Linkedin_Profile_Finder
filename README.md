@@ -13,6 +13,17 @@ A Chrome extension to find and display LinkedIn profile information, including e
 
 ---
 
+## 📁 Project Structure
+LINKEDIN_PROFILE_FINDER/
+│── icons/ # Extension icons
+│── screenshot/ # Screenshots for README or Chrome Web Store
+│── background.js # Background script for handling API calls & events
+│── index.html # Popup UI HTML
+│── index.js # Script for popup functionality
+│── manifest.json # Chrome extension manifest file
+│── styles.css # Styling for popup UI
+│── README.md # Project documentation
+
 ## 🛠️ Installation
 
 ### 1. Clone the Repository
