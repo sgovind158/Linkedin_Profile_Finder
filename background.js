@@ -1,5 +1,6 @@
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.action === "findProfileData") {
+    console.log("Received request to find profile data");
     (async () => {
       const hunterIoApiKey = ""; //Add Your Hunter.io API key here
         if (!hunterIoApiKey) {
