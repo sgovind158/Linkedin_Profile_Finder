@@ -14,7 +14,6 @@ A Chrome extension to find and display LinkedIn profile information, including e
 ---
 
 ## 📁 Project Structure
-## 📁 Project Structure
 
 ```
 LINKEDIN_PROFILE_FINDER/
