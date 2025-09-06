@@ -2,9 +2,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const loadingDiv = document.getElementById("loading");
   const resultDiv = document.getElementById("result");
   const messageDiv = document.getElementById("message");
+
   /**
-   * The DOM element with the ID 'unsupported'.
-   * Typically used to display a message or content when a feature is not supported.
+   * The DOM element with the ID "unsupported".
+   * Typically used to display a message or content when a feature or browser is not supported.
    * @type {HTMLElement|null}
    */
   const unsupportedDiv = document.getElementById("unsupported");
@@ -23,7 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
     chrome.runtime.sendMessage(
       { action: "findProfileData", tabId: tabs[0].id },
       (response) => {
-        console.log("Response from background:", response);
         loadingDiv.classList.add("hidden");
         if (response.status === "success" && response.data) {
           /**
@@ -64,8 +64,11 @@ document.addEventListener("DOMContentLoaded", () => {
               ? `${data.verification.status} (${data.verification.date})`
               : "N/A"
           }`;
-          document.getElementById('profileSourcesCount').textContent =
-  `Sources found: ${Array.isArray(data?.sources) ? data?.sources?.length : 0}`;
+          document.getElementById(
+            "profileSourcesCount"
+          ).textContent = `Sources found: ${
+            Array.isArray(data?.sources) ? data?.sources?.length : 0
+          }`;
           resultDiv.classList.remove("hidden");
         } else {
           messageDiv.classList.remove("hidden");
